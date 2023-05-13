@@ -1,7 +1,8 @@
 import React from 'react';
+import AppRouter from './pages/router';
 
 const App = () => {
-    return <div>Base ReactJS Template</div>;
+    return <AppRouter />;
 };
 
 export default App;
